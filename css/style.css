@@ -15,7 +15,7 @@ a {
 }
 p {
 	font-size: 13px;
-	line-height: 1.3em;
+	line-height: 1.2em;
 }
 .container {
 	margin: 0 auto;
@@ -117,7 +117,7 @@ button:hover {
     text-overflow: ellipsis;
 }
 .collection-text p {
-    max-height: 80px;
+    height: 80px;
     overflow: hidden;
 }
 .collection-text button {
