@@ -28,7 +28,7 @@ p {
 }
 .header h1,
 .header h2 {
-    color: #1F3B2D;
+    color: #1F3B2D; 
     text-align: center;
 }
 /* NAVIGATION */
@@ -127,7 +127,13 @@ button:hover {
 }
 .collection-item video {
     width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: contain;
+    display: block;
+    background-color: black;
 }
+
+
 /* FOOTER */
 .footer {
     background-color: yellowgreen;
