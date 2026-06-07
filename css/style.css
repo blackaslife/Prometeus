@@ -133,6 +133,23 @@ button:hover {
     background-color: black;
 }
 
+/* CONTACT FORM */
+.contact-form {
+    margin-top: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    height: 120px;
+    resize: vertical;
+}
 
 /* FOOTER */
 .footer {
