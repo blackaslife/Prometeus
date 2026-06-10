@@ -132,11 +132,49 @@ button:hover {
     display: block;
     background-color: black;
 }
-
+/* CONTACT PAGE */
+.contact-info {
+    margin-top: 20px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
 /* CONTACT FORM */
+.send-message {
+    font-size: 1.5em;
+    margin-top: 20px;
+    resize: vertical;
+}
 .contact-form {
+    display: grid;
+    grid-template-areas:
+        "name email"
+        "message message"
+        "submit submit";
+    grid-gap: 10px;
     margin-top: 20px;
 }
+
+.form-name {
+    grid-area: name;
+}
+
+.form-email {
+    grid-area: email;
+
+}
+
+.form-message {
+    grid-area: message;
+    height: 150px;
+}
+
+.form-submit {
+    grid-area: submit;
+    background-color: yellowgreen;
+    color: white;
+    border: 1px solid transparent;
+}
+
 .contact-form input,
 .contact-form textarea {
     width: 100%;
