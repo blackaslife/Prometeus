@@ -132,6 +132,22 @@ button:hover {
     display: block;
     background-color: black;
 }
+
+/* ABOUT PAGE */
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.about-content {
+    color: #1F3B2D;
+    border: 1px solid #959595;
+    border-radius: 5px;
+    padding: 0 10px 10px 10px;
+    background-image: linear-gradient(to bottom, #BEDF7C, yellowgreen);
+}
+
 /* CONTACT PAGE */
 .contact-info {
     margin-top: 20px;
