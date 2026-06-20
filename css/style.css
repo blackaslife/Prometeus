@@ -148,6 +148,11 @@ button:hover {
     background-image: linear-gradient(to bottom, #BEDF7C, yellowgreen);
 }
 
+.about-content-text {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
 /* CONTACT PAGE */
 .contact-info {
     margin-top: 20px;
