@@ -7,3 +7,6 @@ function showText (element) {
         element.innerHTML = "Read More..."
     }
 }
+
+// js for the slider
+
