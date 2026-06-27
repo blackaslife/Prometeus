@@ -2,6 +2,7 @@
 body {
 	font-family: Arial, San-Serif;
 	font-size: 100%;
+
 }
 ul {
 	margin: 0;
@@ -19,18 +20,35 @@ p {
 }
 .container {
 	margin: 0 auto;
-	width: 960px;
+    width: 100%;
+	max-width: 960px;
+    box-sizing: border-box;
+
 }
 /* HEADER */
 .header {
     padding: 50px 0;
     background-color: yellowgreen;
+    width: 100%;
+
 }
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 960px;
+}
+
 .header h1,
 .header h2 {
     color: #1F3B2D; 
     text-align: center;
 }
+
+
+
 /* NAVIGATION */
 .page-navigation {
 	background-color: #222;
@@ -244,26 +262,35 @@ button:hover {
     }
 
     /* Навігація */
-    .page-navigation li {
-        width: 80px;
+
+.page-navigation .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-navigation ul {
+        display: flex;
+        justify-content: center;
     }
 
     .login {
         float: none;
-    
         display: flex;
-        flex-direction: row;
         justify-content: center;
-        /* align-items: center; */
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         gap: 5px;
-        padding: auto 0;
+        padding: 10px 0;
     }
 
-    .login input {
-        flex-shrink: 1;
-        min-width: 0;
+    .login input[type="text"],
+    .login input[type="password"] {
+        width: 130px;
     }
+
+    .page-navigation li {
+        width: 80px;
+    }
+
 
     /* About grid — одна колонка */
     .about-grid {
