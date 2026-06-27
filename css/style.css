@@ -54,9 +54,21 @@ p {
 	background-color: #222;
 	min-height: 64px;
 }
+
+.page-navigation-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    display: flex;
+    justify-content: start;
+}
+
 .page-navigation li {
-    float: left;
-    width: 100px;
+    /* float: left; */
+    width: 80px;
 }
 .page-navigation a {
     display: block;
@@ -70,7 +82,9 @@ p {
 	background-color: black;
 }
 .login {
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     padding: 15px 0;
 }
 .login input[type="text"],
