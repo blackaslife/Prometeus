@@ -33,14 +33,6 @@ p {
 
 }
 
-.header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 960px;
-}
-
 .header h1,
 .header h2 {
     color: #1F3B2D; 
@@ -67,7 +59,6 @@ p {
 }
 
 .page-navigation li {
-    /* float: left; */
     width: 80px;
 }
 .page-navigation a {
@@ -118,14 +109,7 @@ button:hover {
 .collections {
     overflow: auto;
 }
-/* .collections > div:first-child {
-    padding-left: 0;
-    padding-right: 10px;
-}
-.collections > div:last-child {
-    padding-left: 10px;
-    padding-right: 0;
-} */
+
 .collection-item-outer {
     float: left;
     padding-right: 5px;
@@ -235,7 +219,6 @@ button:hover {
 .contact-form textarea {
     width: 100%;
     padding: 10px;
-    /* margin-bottom: 10px; */
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
