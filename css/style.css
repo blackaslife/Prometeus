@@ -303,11 +303,6 @@ button:hover {
         width: calc(100% / 2);
     }
 
-    /* Третя картка — повна ширина */
-    .collection-item-outer:last-child {
-        width: 100%;
-    }
-
     /* Навігація */
 
 .page-navigation .container {
