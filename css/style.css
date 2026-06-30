@@ -150,6 +150,56 @@ button:hover {
 }
 
 /* SLIDER */
+.slider-arrow {
+    display: none;
+}
+/* SLIDER (only visible on small screens) */
+.slider-arrow {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .collections {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .collection-item-outer {
+        width: 50%;
+        transition: transform 0.3s ease;
+    }
+
+    .collection-item-outer.slide-hidden {
+        display: none;
+    }
+
+    .slider-arrow {
+        display: block;
+        position: absolute;
+        top: 40%;
+        transform: translateY(-50%);
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        border: none;
+        font-size: 18px;
+        padding: 10px 14px;
+        cursor: pointer;
+        z-index: 10;
+        border-radius: 3px;
+    }
+
+    .slider-arrow.prev { left: 0; }
+    .slider-arrow.next { right: 0; }
+    .slider-arrow:hover {
+        background-color: rgba(0,0,0,0.8);
+    }
+}
+
+@media (max-width: 480px) {
+    .collection-item-outer {
+        width: 100%;
+    }
+}
 
 /* ABOUT PAGE */
 .about-grid {
